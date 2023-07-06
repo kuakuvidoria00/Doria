@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+.corps {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    border: 1px solid;
+    margin: 0 auto;
+    padding: 0;
+    width: max-content;
+}
+
+.corps > * {
+    padding: 0;
+    margin: 0;
+}
+
+
+.right {
+    background-color: #E5CFC2;
+}
+
+.section-gauche {
+    height: 100%;
+    background-color: #545454;
+}
+
+hr {
+    margin: auto;
+
+}
+
+:root {
+    --progress: #E5CFC2;
+}
+
+.progressbar-wrapper {
+    border-radius: 10px;
+    background-color: white;
+    height: 16, 9;
+    width: 100%;
+}
+
+.progressbar {
+    border-radius: 10px;
+    background-color: var(--progress);
+    padding: 1rem;
+}
+
+.ligne {
+    width: 63%;
+}
+
+.ligne2 {
+    width: 41%;
+}
+
+.non1 {
+    width: 79%;
+}
+
+.non2 {
+    width: 46%;
+}
+
+.non3 {
+    width: 69%;
+}
+
+.non4 {
+    width: 63%;
+}
+
+.progressbared-wrapper {
+    border-radius: 30px;
+    background-color: #545454;
+    width: 100%;
+}
+
+.section-gauche .yes {
+    color: white;
+}
